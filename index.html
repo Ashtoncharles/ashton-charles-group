@@ -5,53 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashton Charles Group</title>
     <style>
+        /* Basic Reset */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
         body {
-            margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             line-height: 1.6;
             color: #333;
-            background-color: #f5f5f5;
+            background-color: #f9f9f9;
         }
+
+        a { text-decoration: none; }
+
+        /* Header / Hero */
         header {
             background-color: #1a1a1a;
-            color: white;
-            padding: 60px 20px;
+            color: #fff;
             text-align: center;
+            padding: 80px 20px 60px 20px;
         }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
+
+        header h1 { font-size: 3em; margin-bottom: 10px; }
+        header p { font-size: 1.3em; margin-bottom: 20px; }
+
+        .hero-buttons a {
+            display: inline-block;
+            margin: 10px;
+            padding: 14px 28px;
+            background-color: #ff6b00;
+            color: #fff;
+            border-radius: 6px;
+            transition: 0.3s;
         }
-        header p {
-            font-size: 1.2em;
-            margin-top: 10px;
-        }
-        section {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 0 20px;
-        }
-        .contact {
-            text-align: center;
-            margin-top: 40px;
-        }
+
+        .hero-buttons a:hover { background-color: #e55a00; }
+
+        /* Section Styling */
+        section { max-width: 900px; margin: 60px auto; padding: 0 20px; }
+
+        h2 { margin-bottom: 20px; font-size: 2em; color: #1a1a1a; }
+
+        ul { list-style-type: disc; margin-left: 20px; }
+
         .contact a {
             display: inline-block;
+            margin-top: 10px;
             background-color: #1a1a1a;
-            color: white;
+            color: #fff;
             padding: 12px 24px;
-            text-decoration: none;
             border-radius: 6px;
-            transition: background-color 0.3s ease;
         }
-        .contact a:hover {
-            background-color: #333;
-        }
+
+        .contact a:hover { background-color: #333; }
+
         footer {
             text-align: center;
             padding: 20px;
-            font-size: 0.9em;
             color: #777;
+            font-size: 0.9em;
+        }
+
+        /* Responsive */
+        @media (max-width: 600px) {
+            header h1 { font-size: 2em; }
+            header p { font-size: 1em; }
+            .hero-buttons a { padding: 12px 20px; }
         }
     </style>
 </head>
@@ -59,22 +77,54 @@
 
 <header>
     <h1>Ashton Charles Group</h1>
-    <p>Empowering businesses and individuals to achieve lasting success.</p>
+    <p>Trusted successor for essential service businesses</p>
+    <p>We acquire strong, local trades businesses — HVAC, plumbing, electrical, and related service companies.</p>
+    <div class="hero-buttons">
+        <a href="mailto:ashtoncharlesgroup@gmail.com?subject=Confidential Conversation">Request a confidential conversation</a>
+        <a href="mailto:ashtoncharlesgroup@gmail.com?subject=Seller Packet Request">Request seller packet</a>
+    </div>
 </header>
 
 <section>
-    <h2>About Us</h2>
-    <p>At Ashton Charles Group, we specialize in helping businesses grow and succeed in today’s competitive market. Whether it’s business consulting, strategic guidance, or operational support, we are committed to delivering results that matter.</p>
+    <h2>Our Approach</h2>
+    <p>We take a practical, operator-first approach:</p>
+    <ul>
+        <li>Seller-financed transitions where appropriate to deliver fair value.</li>
+        <li>Hands-on operations that preserve local reputation and staff continuity.</li>
+        <li>Efficient diligence — we typically request 3 years of financials and focus on service revenue and recurring contracts.</li>
+    </ul>
 </section>
 
-<section class="contact">
-    <h2>Contact Us</h2>
-    <p>Email us directly at:</p>
-    <a href="mailto:ashtoncharlesgroup@gmail.com">ashtoncharlesgroup@gmail.com</a>
+<section>
+    <h2>Typical Criteria</h2>
+    <ul>
+        <li>Industry: HVAC, plumbing, electrical, mechanical services</li>
+        <li>Annual revenue: $500k — $2M (flexible)</li>
+        <li>Location: Southeast U.S. (Alabama preferred)</li>
+        <li>Owner open to seller financing / transition support</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:ashtoncharlesgroup@gmail.com">ashtoncharlesgroup@gmail.com</a></p>
+    <p>Location: Alabama, USA</p>
+    <p>Prefer phone? Add your number and I'll update the file for you.</p>
+</section>
+
+<section>
+    <h2>Why Owners Choose Us</h2>
+    <ul>
+        <li>Respect for legacy — we preserve brand, staff, and customer relationships.</li>
+        <li>Flexible deal structures — seller-friendly, transparent terms.</li>
+        <li>Local, long-term operator mindset — we run businesses responsibly, not flip them.</li>
+    </ul>
 </section>
 
 <footer>
-    &copy; 2025 Ashton Charles Group. All rights reserved.
+    Ashton Charles Group — a buyer focused on essential service businesses.  
+    Email: <a href="mailto:ashtoncharlesgroup@gmail.com">ashtoncharlesgroup@gmail.com</a> <br>
+    Not an offer; for inquiries only.
 </footer>
 
 </body>
